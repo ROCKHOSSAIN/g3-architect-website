@@ -77,6 +77,40 @@ align-items: center;
         flex-direction: column;
     }
 }
+/* main styles  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.5rem;
+}
+.teams-title .quick-list{
+    font-size: 2.5rem;
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .text-features{
+    font-size: 2.5rem;
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.
+
  /* Tablet devices or medium devices  */
  @media screen and (min-width:576px) and (max-width:960px){
     header{
